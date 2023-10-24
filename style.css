@@ -6,9 +6,6 @@
     color: black;
 
 }
-body {
-    overflow: hidden;
-}
 
 .background {
 
@@ -31,7 +28,7 @@ img {
     align-items: center;
     width: 100%;
     height: inherit;
-    outline: 1px solid orange;
+    
     z-index: 1;
     padding: 25%;
 }
@@ -155,4 +152,21 @@ img {
 .item-conteudo a {
     font-size: 1.4em;
     font-family: 'Roboto', sans-serif;
+}
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: white;
+
+}
+
+footer p {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.4em ;
+    font-family: 'Roboto', sans-serif;
+}
+
+.autor-img {
+    color: blue;
 }

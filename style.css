@@ -1,10 +1,13 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
     color: black;
 
+}
+body {
+    overflow: hidden;
 }
 
 .background {
@@ -21,6 +24,7 @@ img {
     height: inherit;
     object-fit: cover;
 }
+
 .container-card {
     display: flex;
     justify-content: center;
@@ -31,37 +35,66 @@ img {
     z-index: 1;
     padding: 25%;
 }
+
 .card {
     display: flex;
     justify-content: center;
     flex-direction: column;
     z-index: 1;
     width: 400px;
-   height:  600px;
+    height: 600px;
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.01);
     background: rgba(255, 255, 255, 0.47);
     backdrop-filter: blur(20px);
-   
+
 
 }
+
 .perfil {
-    
+
     width: 50%;
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 15px;
     margin: auto;
-   
+
 }
+
 .perfil i {
     color: rgb(119, 119, 119);
 }
 
+.perfil-conteudo {
+    display: flex;
+    justify-content: center;
+
+    max-width: 100%;
+    height: 55px;
+    text-align: center;
+
+}
+
+.perfil-conteudo p {
+    text-align: center;
+    width: 60%;
+    height: inherit;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+.texto-name {
+    color: white;
+    margin-left: 10px;
+    text-shadow: 1px 1px #000000;
+}
+
 
 .card-item {
-    
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,10 +102,11 @@ img {
     align-items: center;
     padding: 8px;
     width: inherit;
-    height:  inherit;
+    height: inherit;
 
-    
+
 }
+
 .item {
     display: flex;
     justify-content: center;
@@ -84,14 +118,14 @@ img {
     height: 60px;
     background-color: rgb(255, 255, 255);
     animation: animaçao infinite;
-    animation-duration: 4s ;
+    animation-duration: 4s;
 }
 
 .item:hover {
     cursor: pointer;
     color: white;
     background-color: grey;
-    transition: 500ms linear; 
+    transition: 500ms linear;
 }
 
 
@@ -107,15 +141,17 @@ img {
 
 .item-icon i {
     color: white;
-    
+
 }
+
 .item-conteudo {
     line-height: 2;
     text-align: center;
-    min-width: 120px;     
+    min-width: 120px;
     height: 40px;
 
 }
+
 .item-conteudo a {
     font-size: 1.4em;
     font-family: 'Roboto', sans-serif;

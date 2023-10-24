@@ -83,7 +83,18 @@ img {
     width: 100%;
     height: 60px;
     background-color: rgb(255, 255, 255);
+    animation: animaçao infinite;
+    animation-duration: 4s ;
 }
+
+.item:hover {
+    cursor: pointer;
+    color: white;
+    background-color: grey;
+    transition: 500ms linear; 
+}
+
+
 .item-icon {
     display: flex;
     justify-content: center;
